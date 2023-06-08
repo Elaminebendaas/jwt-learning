@@ -1,7 +1,6 @@
 import express, { Request, Response, Express} from 'express'
 import jwt from 'jsonwebtoken'
 import cors from 'cors'
-import cookie from 'cookie-parser'
 import cookieParser from 'cookie-parser'
 
 const port = 5000
